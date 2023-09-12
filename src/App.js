@@ -5,7 +5,7 @@ function App() {
   const [backendData, setBackendData] = useState([{}]);
 
   useEffect(() => {
-    fetch("https://nodejs-backend-test.netlify.app/api").then(
+    fetch("https://nodejs-backend-server.netlify.app/").then(
       response => response.json()
     ).then(
       data => {

@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-app.get("https://nodejs-backend-test.netlify.app/api", (req, res) => {
+app.get("https://nodejs-backend-server.netlify.app/", (req, res) => {
     res.json({"users": ["userOne", "userTwo", "userThree"]});
 })
 
